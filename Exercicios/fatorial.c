@@ -13,10 +13,10 @@ double fatorial (int n){
 
 float _ln (int k){
 
-	float ln = 0;
+	float ln = 1;
 	int i;
 
-	for (i = 1; i < k; i++){
+	for (i = 1; i <= k; i++){
 		ln = ln + (1 / fatorial(i));
 	}
 
